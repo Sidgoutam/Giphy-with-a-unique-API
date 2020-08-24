@@ -1,0 +1,142 @@
+body{
+    background-color: black;
+}
+
+/* !-----------------------------Containers-------------------------! */
+
+.nav1{
+    margin: 1rem 11rem;
+}
+
+.container2{
+    margin: .5rem 11rem;
+    width: 68.5rem;
+    height: 4rem;
+}
+
+#backdrop{
+    margin: .5rem 11rem;
+    width: 68.5rem;
+}
+
+.out{
+    margin: 1rem 11rem;
+}
+
+.trending{
+    margin: 1rem 11rem;
+}
+
+.trendclass{
+    text-decoration: none;
+    margin: 1rem 11rem;
+}
+
+#results{
+    margin: 1rem 11rem;
+}
+
+h2{
+    color: white;
+}
+
+/* !-------------------links and fonts---------------------! */
+a{
+    color: white;
+    font-display: block;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.home{
+    font-size: 3rem;
+    
+}
+
+h3{
+    color: white;
+    margin: .1rem;
+}
+
+.trendheading{
+    font-size: 1rem;
+    margin-top:.7rem;
+    margin-left:54rem;
+    color: grey;
+}
+
+.iconstyle{
+    display: block;
+    font-size: 20px;
+    margin: 1.7rem 1rem;
+    color: white;
+}
+
+.loginicon{
+    border-radius: 0;
+    background-color: #686363;
+    margin: 1.3rem .2rem;
+    height: 35px;
+}
+
+.navbarstyle{
+    margin: 1rem .5rem;
+    border-bottom: 4px solid #9A8BFB;
+}
+
+.navbarstyle:hover{
+    background-image: linear-gradient(to right, #4AB1C3, #8764E0)
+}
+
+.imgstyle{
+    margin: 1.2rem .5rem;
+    height:40px;
+    width: 30px;
+}
+
+#search{
+    border-radius: 0;
+}
+
+.trend{
+    margin: .5rem 0;
+    height: 25px;
+}
+
+/* !--------------------Button-------------! */
+.btnstyle{
+    border-radius: 0;
+    margin: 1.3rem .2rem;
+    font-display: block;
+    width: 75px;
+    height: 35px;
+    background-color: #AE5AE8;
+    text-align: center;
+    color: white;
+}
+
+.login{
+    text-align: center;
+    border: none;
+    background-color: #574545;
+    border-radius: 0;
+    margin: 1.3rem -.5rem;
+    width: 125px;
+    height: 35px;
+}
+
+#border{
+    border-radius: 0;
+}
+
+/* !----------------Inputs-----------------! */
+
+.search{
+    text-decoration: none;
+    color: white;
+    width: 4rem;
+    background-image: linear-gradient(to top right,#E83862,#387DE8)
+}

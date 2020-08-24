@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="server.js"></script>
+
+        <title>GIPHY|Search all the GIFS and Make Your Own Animated GIF </title>
+    </head>
+    <body>
+        <nav class="nav nav1">
+            <img class="imgstyle" src="images/giphy.jpg">
+            <a class="home" href="">Giphy</a>
+            <a class="nav-link navbarstyle" href="">Reactions</a>
+            <a class="nav-link navbarstyle" href="">Entertainment</a>
+            <a class="nav-link navbarstyle" href="">Sports</a>
+            <a class="nav-link navbarstyle" href="">Stickers</a>
+            <a class="nav-link navbarstyle" href="">Artists</a>
+            <a href=""><i class="fa fa-bars iconstyle" href=""></i></a>
+            <button type="button" class="btn btnstyle"><b>Upload</b></button>
+            <button type="button" class="btn btnstyle"><b>Create</b></button>
+            <button type="button" class="btn loginicon"><i class='fa fa-address-book'></i></button>
+            <button type="button" class="btn login">Log In</button>
+        </nav>
+        <div class="input-group mb-3 container2">
+          <input id="search" type="search" class="form-control" placeholder="Search all the GIFs and Stickers" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+             <button class="btn btn-outline-secondary search" id="btnSearch" type="button" onclick="init()"><i class="fa fa-search fa-2x"></i></button>
+          </div>
+        </div>
+        <img id="backdrop" src="https://media.giphy.com/headers/2020-08-11-40-1597160426/GiphyBackdropDesk.gif">
+        <div class="trending">
+            <div class="row">
+                <div col-1>
+                    <img class="trend" src="images/trend.png">
+                </div>
+                <div col-1>
+                    <h3>Trending</h3>
+                </div>
+                <div col-10>
+                    <h3 class="trendheading">All the GIFs > </h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="trendclass" id="trendid">
+            <div class="row">
+                <div class="col-3"></div>
+           </div>
+        </div>
+        
+            <h2 id="results">Your search results:</h2>
+        
+        <div class="out" id="figure">
+            <div class="row">
+                <div class="col-3"></div>
+           </div>
+        </div>
+            
+    </body>
+</html>
