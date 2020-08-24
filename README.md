@@ -19,7 +19,7 @@ Using javascript the back-end work is done like
    and more
   - Focusing on only search and trending in this project
   
-
+![Images](home.png)
 ![Images](search.png)
    
    
